@@ -8,11 +8,11 @@ const userCache = {};
 const getUser = async (id) => {
   if (userCache[id]) return userCache[id];
 
-  while (performance.now() - 500 < lastRequest) { // Has been less than 500ms since last request
-    await new Promise((res) => setTimeout(res, 100));
-  }
+  // while (performance.now() - 500 < lastRequest) { // Has been less than 500ms since last request
+  //   await new Promise((res) => setTimeout(res, 100));
+  // }
 
-  lastRequest = performance.now();
+  // lastRequest = performance.now();
 
   return userCache[id] = (await axios.get(`https://discord.com/api/v9/users/${id}`, {
     headers: {
