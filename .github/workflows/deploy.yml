@@ -5,6 +5,10 @@ on:
     branches: [ master ]
     paths:
     - 'dist/**'
+  workflow_run:
+    workflows: ["Build"]
+    types:
+      - completed
 
 jobs:
   build:
