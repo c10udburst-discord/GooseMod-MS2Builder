@@ -3,6 +3,7 @@ node_modules
 
 clones
 # dist
+src/env.js
 
 devDist
 devTemp

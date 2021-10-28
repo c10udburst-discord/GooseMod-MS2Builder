@@ -1,0 +1,23 @@
+name: Build
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Create env.js
+      run: |
+        echo ${{ secrets.ENV_JS }} > src/env.js
+    - name: Build
+      run: |
+        node src/index.js
+    - name: Commit
+      run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add .
+          git commit -m "Build" || exit 0   # do not error if nothing to commit
+          git push
