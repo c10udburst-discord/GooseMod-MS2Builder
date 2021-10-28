@@ -1,0 +1,10 @@
+node_modules
+.cache
+
+clones
+# dist
+
+devDist
+devTemp
+
+temp.py
