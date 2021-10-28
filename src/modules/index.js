@@ -7,7 +7,7 @@ export default [
 
     filename: 'main',
     modules: [
-      ['c10udburst-discord/GooseMod-Plugins', 'f1fbd0b459fb0d6fa654ba405276fb6f8ca06620', '/SendEmbeds']
+      ['c10udburst-discord/GooseMod-Plugins', '1e2d15b0294bcd92bb4427eb1b25f384cc5b2ebe', '/SendEmbeds']
     ]
   },
 
