@@ -7,8 +7,9 @@ export default [
 
     filename: 'main',
     modules: [
-      ['c10udburst-discord/GooseMod-Plugins', '60d6d2f9f5ccd9c363fb201e3c8ce022cb659b42', '/SendEmbeds', undefined, { notice: 2 }],
-      ['c10udburst-discord/GooseMod-Plugins', '60d6d2f9f5ccd9c363fb201e3c8ce022cb659b42', '/Token']
+      ['c10udburst-discord/GooseMod-Plugins', 'a8939f6c8b8ed5090a22491975d5cd801f11a338', '/SendEmbeds', undefined, { notice: 2 }],
+      ['c10udburst-discord/GooseMod-Plugins', 'a8939f6c8b8ed5090a22491975d5cd801f11a338', '/Token'],
+      ['c10udburst-discord/GooseMod-Plugins', 'a8939f6c8b8ed5090a22491975d5cd801f11a338', '/EmbedMessageLinks']
     ]
   },
 
