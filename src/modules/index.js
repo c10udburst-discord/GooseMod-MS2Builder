@@ -2,7 +2,7 @@ export default [
   {
     meta: {
       name: 'Cloudburst\'s Store',
-      description: 'lol.',
+      description: 'Janky plugins.',
     },
 
     filename: 'main',
