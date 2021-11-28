@@ -17,7 +17,9 @@ export default [
       ['xirreal/GM-Hidden-Channels', ''],
 	    
       // PCPlugins
-      ['Syncxv/no-nitro-gang-v2', '', '/manifest.json', 'pcPlugin'],
+      ['CaptainBoggle/Streamiun', '', '/manifest.json', 'pcPlugin', {
+      	authors: ["306249172032552980"]
+      }],
 
       // BdThemes
       ['discord-addons/discord-addons', '', '/download-themes-here/GreenSpotifyControls/GreenSpotifyControls.theme.css', 'bdTheme', {
