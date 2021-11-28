@@ -15,6 +15,10 @@ export default [
       ['luimu64/nitro-spoof', ''],
       //['smartfrigde/GM-friend-count', ''],
       ['xirreal/GM-Hidden-Channels', ''],
+	    
+      // PCPlugins
+      ['Algoinde/powercord-tile-channels', '', '/manifest.json', 'pcPlugin'],
+      ['Syncxv/no-nitro-gang-v2', '', '/manifest.json', 'pcPlugin'],
 
       // BdThemes
       ['discord-addons/discord-addons', '', '/download-themes-here/GreenSpotifyControls/GreenSpotifyControls.theme.css', 'bdTheme', {
@@ -50,11 +54,9 @@ export default [
 	images: ['https://discord-addons.github.io/screenshots/TypingAtTopOfChatBox.png']
       }],
       ['Kaiidoo/Newcord', '', '/src/newcord.theme.css', 'bdTheme', {
-	authors: ["789168545488699403"],
 	images: ['https://imgur.com/oV98fvb.png', 'https://imgur.com/7VXDMbQ.png', 'https://imgur.com/MZD1Sj5.png']
       }],
       ['mwittrien/BetterDiscordAddons', '', '/Themes/ServerColumns/ServerColumns.theme.css', 'bdTheme', {
-	authors: ["789168545488699403"],
 	images: ['https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/_res/cover.png']
       }]
     ]
