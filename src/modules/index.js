@@ -2,7 +2,7 @@ export default [
   {
     meta: {
       name: 'Cloudburst\'s Store',
-      description: 'Janky plugins.',
+      description: '',
     },
 
     filename: 'main',
@@ -15,6 +15,7 @@ export default [
       ['luimu64/nitro-spoof', ''],
       //['smartfrigde/GM-friend-count', ''],
       ['xirreal/GM-Hidden-Channels', '', undefined, undefined, {
+		notice: 2,
         images: [
           'https://raw.githubusercontent.com/xirreal/GM-Hidden-Channels/main/images/0.png',
           'https://raw.githubusercontent.com/xirreal/GM-Hidden-Channels/main/images/1.png',
