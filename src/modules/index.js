@@ -17,7 +17,6 @@ export default [
       ['xirreal/GM-Hidden-Channels', ''],
 	    
       // PCPlugins
-      ['Algoinde/powercord-tile-channels', '', '/manifest.json', 'pcPlugin'],
       ['Syncxv/no-nitro-gang-v2', '', '/manifest.json', 'pcPlugin'],
 
       // BdThemes
