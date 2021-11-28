@@ -46,6 +46,14 @@ export default [
       ['discord-addons/discord-addons', '', '/download-themes-here/TextareaMaxHeightModifier/TextareaMaxHeightModifier.theme.css', 'bdTheme', {
         authors: ["875809253875671090"],
         images: ['https://discord-addons.github.io/screenshots/TextareaMaxHeightModifier.png']
+      }],
+      ['discord-addons/discord-addons', '', '/download-themes-here/CompactChannels/CompactChannels.theme.css', 'bdTheme', {
+        authors: ["875809253875671090"],
+        images: ['https://discord-addons.github.io/screenshots/CompactChannels.png']
+      }],
+      ['discord-addons/discord-addons', '', '/download-themes-here/TypingAtTopOfChatBox/TypingAtTopOfChatBox.theme.css', 'bdTheme', {
+        authors: ["875809253875671090"],
+        images: ['https://discord-addons.github.io/screenshots/TypingAtTopOfChatBox.png']
       }]
     ]
   },
