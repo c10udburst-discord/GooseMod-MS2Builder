@@ -46,9 +46,6 @@ export default [
 	authors: ["875809253875671090"],
 	images: ['https://discord-addons.github.io/screenshots/CompactChannels.png']
       }],
-      ['Kaiidoo/Newcord', '', '/src/newcord.theme.css', 'bdTheme', {
-	images: ['https://imgur.com/oV98fvb.png', 'https://imgur.com/7VXDMbQ.png', 'https://imgur.com/MZD1Sj5.png']
-      }],
       ['mwittrien/BetterDiscordAddons', '', '/Themes/ServerColumns/ServerColumns.theme.css', 'bdTheme', {
 	images: ['https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/_res/cover.png']
       }]
