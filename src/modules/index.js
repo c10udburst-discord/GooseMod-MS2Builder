@@ -22,10 +22,6 @@ export default [
       }],
 
       // BdThemes
-      ['discord-addons/discord-addons', '', '/download-themes-here/GreenSpotifyControls/GreenSpotifyControls.theme.css', 'bdTheme', {
-	authors: ["875809253875671090"],
-	images: ['https://discord-addons.github.io/screenshots/GreenSpotifyControls.png']
-      }],
       ['discord-addons/discord-addons', '', '/download-themes-here/ClassicSending/ClassicSending.theme.css', 'bdTheme', {
 	authors: ["875809253875671090"],
 	images: ['https://discord-addons.github.io/screenshots/ClassicSending.png']
@@ -49,10 +45,6 @@ export default [
       ['discord-addons/discord-addons', '', '/download-themes-here/CompactChannels/CompactChannels.theme.css', 'bdTheme', {
 	authors: ["875809253875671090"],
 	images: ['https://discord-addons.github.io/screenshots/CompactChannels.png']
-      }],
-      ['discord-addons/discord-addons', '', '/download-themes-here/TypingAtTopOfChatBox/TypingAtTopOfChatBox.theme.css', 'bdTheme', {
-	authors: ["875809253875671090"],
-	images: ['https://discord-addons.github.io/screenshots/TypingAtTopOfChatBox.png']
       }],
       ['Kaiidoo/Newcord', '', '/src/newcord.theme.css', 'bdTheme', {
 	images: ['https://imgur.com/oV98fvb.png', 'https://imgur.com/7VXDMbQ.png', 'https://imgur.com/MZD1Sj5.png']
