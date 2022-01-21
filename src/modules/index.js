@@ -11,7 +11,6 @@ export default [
       ['c10udburst-discord/GooseMod-Plugins', '', '/SendEmbeds', undefined, { notice: 2 }],
       ['c10udburst-discord/GooseMod-Plugins', '', '/Token'],
       ['c10udburst-discord/GooseMod-Plugins', '', '/Sessions'],
-      ['c10udburst-discord/GooseMod-Plugins', '', '/EmbedMessageLinks'],
       ['luimu64/nitro-spoof', ''],
       //['smartfrigde/GM-friend-count', ''],
       ['xirreal/GM-Hidden-Channels', ''],
