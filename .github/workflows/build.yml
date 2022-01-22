@@ -32,6 +32,6 @@ jobs:
       run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git add .
+          git add dist
           git commit -m "Build" || exit 0   # do not error if nothing to commit
           git push
