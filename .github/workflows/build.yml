@@ -26,6 +26,7 @@ jobs:
     - name: Build
       run: |
         rm -rf dist
+        mkdir dist
         node src/index.js
     - name: Commit
       run: |
