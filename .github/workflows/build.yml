@@ -25,6 +25,7 @@ jobs:
         EOF
     - name: Build
       run: |
+        rm -rf dist
         node src/index.js
     - name: Commit
       run: |
