@@ -13,9 +13,6 @@ export default [
       //['luimu64/nitro-spoof', ''],
       //['smartfrigde/GM-friend-count', ''],
       //['xirreal/GM-Hidden-Channels', ''],
-
-      // PCThemes
-      ['leeprky/MaterialYouTheme', '', '/powercord_manifest.json', 'pcPlugin'],
 	    
       // PCPlugins
       ['CaptainBoggle/Streamiun', '', '/manifest.json', 'pcPlugin', {
@@ -25,6 +22,7 @@ export default [
       ['powercord-community/multitask', '', '/manifest.json', 'pcPlugin'],
 
       // BdThemes
+	['leeprky/MaterialYouTheme', '', '/betterdiscord/MaterialYouTheme.theme.css', 'bdTheme']
  //     ['discord-addons/discord-addons', '', '/download-themes-here/ClassicSending/ClassicSending.theme.css', 'bdTheme', {
 //  authors: ["875809253875671090"],
 //	images: ['https://discord-addons.github.io/screenshots/ClassicSending.png']
