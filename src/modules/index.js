@@ -16,7 +16,7 @@ export default [
       //['xirreal/GM-Hidden-Channels', ''],
 
       // PCThemes
-      ['leeprky/MaterialYouTheme', '', '/powercord_manifest.json', 'pcTheme'],
+      ['leeprky/MaterialYouTheme', '', '/powercord_manifest.json', 'pcPlugin'],
 	    
       // PCPlugins
       ['CaptainBoggle/Streamiun', '', '/manifest.json', 'pcPlugin', {
