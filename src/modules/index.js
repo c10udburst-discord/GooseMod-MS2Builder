@@ -19,7 +19,6 @@ export default [
       	authors: ["306249172032552980"]
       }],
       ['notsapinho/powercord-together', '', '/manifest.json', 'pcPlugin'],
-      ['powercord-community/multitask', '', '/manifest.json', 'pcPlugin'],
 
       // BdThemes
 	['leeprky/MaterialYouTheme', '', '/betterdiscord/MaterialYouTheme.theme.css', 'bdTheme']
