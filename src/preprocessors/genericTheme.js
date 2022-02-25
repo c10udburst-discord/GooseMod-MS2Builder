@@ -67,6 +67,8 @@ const imagePaletteVars = [
 ];
 
 export default async (manifest, _content, repo) => {
+  while(repo.length<6) repo.push({})
+  
   const content = _content.replace(/\\/g, '\\\\').replace(/`/g, '\\`').replace(/\$/g, '\\$');
 
   let variables = content.match(/--([^*!\n}]*): ([^*\n}]*);/g) || [];
