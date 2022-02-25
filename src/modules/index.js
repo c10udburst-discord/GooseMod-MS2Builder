@@ -8,7 +8,6 @@ export default [
     filename: 'main',
     modules: [
       // GooseMod
-      ['c10udburst-discord/GooseMod-Plugins', '', '/SendEmbeds', undefined, { notice: 2 }],
       ['c10udburst-discord/GooseMod-Plugins', '', '/Token'],
       ['c10udburst-discord/GooseMod-Plugins', '', '/Sessions'],
       //['luimu64/nitro-spoof', ''],
